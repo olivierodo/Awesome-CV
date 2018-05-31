@@ -14,7 +14,7 @@
 $ docker run --rm  --name latex -v $PWD:/doc/ -it thomasweise/texlive xelatex.sh resume.pdf
 ```
 
-## Github Cv assistant : Simple Pipeline compilation for your resume
+## Github Cv assistant : Simple Pipeline compilation for your resume 🤖
 
 To compile and Keep the resume up to date i advise to intall the github Bot [gh-cv-assistant](https://github.com/olivierodo/gh-cv-assistant) on your repository.
 
