@@ -1,0 +1,1 @@
+./assets/awesome-cv.cls
