@@ -555,6 +555,14 @@
   \vspace{2mm}
 }
 
+% Define a paragraph for CV
+\newenvironment{cvtechnologies}{%
+  \fontsize{8pt}{1em}\footerfont\scshape\color{lighttext}
+}{%
+  \par
+  \vspace{2mm}
+}
+
 % Define an environment for cventry
 \newenvironment{cventries}{%
   \vspace{\acvSectionContentTopSkip}
