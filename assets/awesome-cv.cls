@@ -283,7 +283,7 @@
 
 % Defines writer's homepage (optional)
 % Usage: \homepage{<url>}
-\newcommand*{\homepage}[1]{\def\@homepage{#1}}
+\newcommand*{\homepage}[1]{\def\@homepage{#1}\def\@hparam{?source=awesome-cv}}
 
 % Defines writer's github (optional)
 % Usage: \github{<github-nick>}
@@ -452,7 +452,7 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{http://\@homepage}{\faHome\acvHeaderIconSep\@homepage}%
+          \href{http://\@homepage\@hparam}{\faHome\acvHeaderIconSep\@homepage}%
         }%
       \ifthenelse{\isundefined{\@github}}%
         {}%
