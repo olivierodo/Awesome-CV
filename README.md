@@ -18,4 +18,5 @@ $ docker run --rm  --name latex -v $PWD:/doc/ -it thomasweise/texlive xelatex.sh
 
 To compile and Keep the resume up to date i advise to install the github Bot [gh-cv-assistant](https://github.com/olivierodo/gh-cv-assistant) on your repository.
 
-[Gh-cv-assistant](https://github.com/olivierodo/gh-cv-assistant) will trigger the compilation at each push and create a new release containing the resume.pdf. Then you will just need to share the link of the latest tag on your different channels :  website, email, etc... (ex : https:/{your repo}/releases/download/latest/resume.pdf)
+[Gh-cv-assistant](https://github.com/olivierodo/gh-cv-assistant) will trigger the compilation at each push and create a new release containing the resume.pdf. Then you will just need to share the link of the latest tag on your different channels :  website, email, etc...
+(ex : https://{your repo}/releases/download/latest/resume.pdf)
