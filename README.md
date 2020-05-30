@@ -21,6 +21,6 @@ It's the best way to keep you resume up to date, because the final PDF will be h
 
 Look at the [Awesome-CV  Github Action](https://github.com/olivierodo/Awesome-CV-action)
 
-I use it on this current repository, look at my configuration on [./github/workflows/awesome-cv-ci.yml](./github/workflows/awesome-cv-ci.yml) and that will generate an example like this  : https://github.com/olivierodo/Awesome-CV/releases/tag/latest where you can access the pdf easily.
+I use it on this current repository, look at my configuration on [./.github/workflows/awesome-cv-ci.yml](./.github/workflows/awesome-cv-ci.yml) and that will generate an example like this  : https://github.com/olivierodo/Awesome-CV/releases/tag/latest where you can access the pdf easily.
 
 [Awesome-CV  Github Action](https://github.com/olivierodo/Awesome-CV-action) will trigger the compilation at each push and create a new release containing the resume.pdf. Then you will just need to share the link of the latest tag on your different channels :  website, email, etc...(ex : https://{your repo}/releases/download/latest/resume.pdf)
