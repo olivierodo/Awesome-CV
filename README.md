@@ -11,13 +11,16 @@
 #### Using Docker
 
 ```
-$ docker run --rm  --name latex -v $PWD:/doc/ -it thomasweise/texlive xelatex.sh resume.pdf
+$ docker run --rm  --name latex -v $PWD:/doc/ -it thomasweise/texlive xelatex.sh olivier-rodomond.tex
 ```
 
-## Github Cv assistant : Simple Pipeline compilation for your resume 🤖
+## Github Action : Simple Pipeline compilation for your resume 🤖
 
-To compile and Keep the resume up to date i advise to install the github Bot [gh-cv-assistant](https://github.com/olivierodo/gh-cv-assistant) on your repository.
+Having is your resume on github is cool for the versioning but what is more fun is to automated it to be generated automatically at each commit !
+It's the best way to keep you resume up to date, because the final PDF will be hosted on GITHUB :)
 
-[Gh-cv-assistant](https://github.com/olivierodo/gh-cv-assistant) will trigger the compilation at each push and create a new release containing the resume.pdf. Then you will just need to share the link of the latest tag on your different channels :  website, email, etc...
+Look at the [Awesome-CV  Github Action](https://github.com/olivierodo/Awesome-CV-action)
 
-(ex : https://{your repo}/releases/download/latest/resume.pdf)
+I use it on this current repository, look at my configuration on [./github/workflows/awesome-cv-ci.yml](./github/workflows/awesome-cv-ci.yml) and that will generate an example like this  : https://github.com/olivierodo/Awesome-CV/releases/tag/latest where you can access the pdf easily.
+
+[Awesome-CV  Github Action](https://github.com/olivierodo/Awesome-CV-action) will trigger the compilation at each push and create a new release containing the resume.pdf. Then you will just need to share the link of the latest tag on your different channels :  website, email, etc...(ex : https://{your repo}/releases/download/latest/resume.pdf)
